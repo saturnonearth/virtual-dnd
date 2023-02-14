@@ -321,7 +321,7 @@
 	}
 
 	function handleSort(e) {
-		items = e.detail.items;
+		listItems = e.detail.items;
 	}
 </script>
 
@@ -336,7 +336,7 @@
 		style={innerStyle}
 	>
 		{#each listItems as item (item.id)}
-			<div>{item.name}</div>
+			<div style="margin: 10px; padding: 25px; border: 1px solid black;">{item.name}</div>
 		{/each}
 	</div>
 

@@ -24,7 +24,12 @@
 </section>
 
 <style>
-
+	section {
+		padding: 0.3em;
+		/* this will allow the dragged element to scroll the list */
+		overflow: scroll;
+		height: 600px;
+	}
 	div {
 		width: 50%;
 		padding: 0.2em;
